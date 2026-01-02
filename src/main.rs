@@ -1,4 +1,7 @@
-use bevy::prelude::*;
+use bevy::{
+    input::keyboard::{Key, KeyboardInput},
+    prelude::*,
+};
 
 fn close_handler(
     mut events: MessageReader<KeyboardInput>,
